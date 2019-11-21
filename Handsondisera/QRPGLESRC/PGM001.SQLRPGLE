@@ -11,15 +11,19 @@
 000117191117       dcl-s nuovavariabile char(10);
 000119190701
 000120191115       // Versione del programma
-000121191121       version='1.2';
+000121191121       version='1.3';
 000122191115       testo='Versione '+Version;
-000123191115
-000124191115       dsply testo  ;
-000125191117
-000126191117       // Nella versione 1.1 aggiungo anche le seguenti righe
-000127191117       if version='1.1';
-000128191117          nuovavariabile='OK';
-000129191117       ENDIF;
+000123191121
+000124191121
+000125191121        testo='xxx';
+000126191121
+000127191115
+000128191115       dsply testo  ;
+000129191117
+000130191117       // Nella versione 1.1 aggiungo anche le seguenti righe
+000131191117       if version='1.1';
+000132191117          nuovavariabile='OK';
+000133191117       ENDIF;
 000144190701
 000157190701
 000158190701       exsr fine;
